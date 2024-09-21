@@ -4,6 +4,7 @@ This project implements machine learning algorithms to classify DDoS attacks. Th
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [DDoS Classification ML Comparison Notebook](#ddos-classification-ml-comparison-notebook)
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
 - [Running the App](#running-the-app)
@@ -35,6 +36,23 @@ This project implements machine learning techniques to classify network traffic 
    - Models including K-Nearest Neighbors, Decision Trees, Random Forests, and SVM are trained and evaluated.
    - Performance metrics such as precision, recall, and F1-score are reported.
    - Confusion matrices and ROC curves are generated for detailed analysis.
+
+## DDoS Classification ML Comparison Notebook
+
+The `ddos_classification_ml_comparison.ipynb` notebook provides a comprehensive comparison of various machine learning algorithms for classifying DDoS attacks using the SDN dataset. This notebook is designed to evaluate the performance of different classifiers, analyze their effectiveness, and identify the best-performing model for DDoS detection.
+
+### Key Features
+- **Data Loading and Preprocessing**: Load the dataset and perform preprocessing steps.
+- **Feature Selection**: Apply techniques like Mutual Information, Chi-Square, and F-Test.
+- **Class Balancing Techniques**: Implement methods such as Random Oversampling, Random Undersampling, and SMOTE.
+- **Model Evaluation**: Train and evaluate classifiers like KNN, Decision Trees, Random Forests, and SVM.
+- **Performance Metrics**: Assess models using accuracy, precision, recall, F1-score, and AUC-ROC, with visualizations included.
+
+### Usage
+To use this notebook, ensure you have all the necessary libraries installed, then open the notebook in Jupyter or Google Colab and follow the step-by-step instructions to run each cell.
+
+### Conclusion
+The notebook serves as a valuable resource for understanding the capabilities of different machine learning algorithms in the context of DDoS attack detection.
 
 
 ## Prerequisites
