@@ -3,6 +3,7 @@
 This project implements machine learning algorithms to classify DDoS attacks. The app is built using Streamlit for a user-friendly interface, allowing users to interactively predict whether network traffic is benign or malicious.
 
 ## Table of Contents
+- [Project Overview](#project-overview)
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
 - [Running the App](#running-the-app)
@@ -10,6 +11,31 @@ This project implements machine learning algorithms to classify DDoS attacks. Th
 - [Requirements](#requirements)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+
+## Project Overview
+
+This project implements machine learning techniques to classify network traffic and detect DDoS attacks using the provided SDN dataset. It includes comprehensive data preprocessing, feature selection, class balancing, and model evaluation.
+
+### Key Libraries Used
+- **Data Manipulation**: `pandas`, `numpy`
+- **Visualization**: `matplotlib`, `seaborn`
+- **Machine Learning**: `scikit-learn` for classifiers, `imblearn` for handling class imbalance
+- **Feature Selection**: Utilizing Mutual Information, Chi-Square, and F-Test
+
+### Workflow Summary
+1. **Data Loading**: The dataset is loaded from a CSV file.
+2. **Data Preprocessing**:
+   - Handling missing values.
+   - Encoding categorical features using `LabelEncoder`.
+   - Scaling numerical features with `StandardScaler`.
+3. **Feature Selection**:
+   - Evaluate features based on Mutual Information, Chi-Square, and F-Test scores.
+4. **Class Balancing**: Techniques like Random Oversampling, Random Undersampling, and SMOTE are applied to address class imbalance.
+5. **Model Training & Evaluation**:
+   - Models including K-Nearest Neighbors, Decision Trees, Random Forests, and SVM are trained and evaluated.
+   - Performance metrics such as precision, recall, and F1-score are reported.
+   - Confusion matrices and ROC curves are generated for detailed analysis.
+
 
 ## Prerequisites
 
