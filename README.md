@@ -6,6 +6,7 @@ This project implements machine learning algorithms to classify DDoS attacks. Th
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
 - [Running the App](#running-the-app)
+- [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -23,7 +24,19 @@ Before you begin, ensure you have Python installed on your machine. You can down
 
 ## Running the App
 
-To run the Streamlit app, navigate to the project directory and use the following command: `streamlit run app.py`, replacing `app.py` with the name of your main Streamlit file if it's different. This command will launch the app in your default web browser, where you can interact with the model and make predictions based on network traffic data.
+To run the Streamlit app, navigate to the project directory and use the following command: `streamlit run app.py`. This command will launch the app in your default web browser, where you can interact with the model and make predictions based on network traffic data.
+
+## Screenshots
+
+Here are some screenshots of the DDoS Classification App:
+
+**Screenshot 1:**  
+![App Screenshot 1](Screenshot-1.jpg)
+
+**Screenshot 2:**  
+![App Screenshot 2](Screenshot-2.jpg)
+
+These screenshots display the interface and features of the app in action.
 
 ## Requirements
 
